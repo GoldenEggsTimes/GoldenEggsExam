@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'Zpix';
   font-style: normal;
-  src: url(https://cdn.jsdelivr.net/gh/SolidZORO/zpix-pixel-font/website/zpix.woff2) format('woff2');
+  src: url(https://cdn.jsdelivr.net/gh/GoldenEggsTimes/GoldenEggsExam/IPix.ttf);
 }
 body {
   padding: 0 2rem;
@@ -17,7 +17,12 @@ cursor: not-allowed!important;
 .nes-container {
 padding: 1rem 1rem!important;
 }
-
+<svg
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="0.494cm" height="0.494cm">
+<image  x="0px" y="0px" width="14px" height="14px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAdVBMVEX////r1Sf2+fqbggDr3jl3aAvr1jnr1SeNeQvr0h+umRW5pQDUswDFqgBCm7rFsgDrxQDjwQDr3jl3aAtYjKVCdXDXugAdLCasnwDfugDo1y7m0idTVxe3mAahiAvftQDryw7r1SXiww66nAbr1jm3lQb////1MByVAAAAB3RSTlMAAAAAAAAAVWTqWAAAAAFiS0dEAIgFHUgAAAAHdElNRQflAQgWDhjnzUvUAAAAkUlEQVQI1y2O6xbCIAyDi1YC6hBbEbzMecH3f0Vhs7+Sk+80IZoPjgzMor1zgIP5W+e3u/0wOBNWM3iI3h9FTyH18Awgl8viGpsLChBSWlNAlILrDfBJmVKIvrEZIhEgShIF+d5Sr61K3CjtF3zUPoT1MU3P11ugfQiz6GesX9Vl10ZYq2q1RrgXM1O1ZK1h/gEQdwiFJDjeCgAAAABJRU5ErkJggg==" />
+</svg>
 b{
 font-size: 1.2rem;
 }
@@ -26,7 +31,7 @@ html{
 cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFklEQVRYR9WXURLDIAhE6/0PbSdOtUpcd1Gnpv1KGpTHBpCE1/cXq+vrMph7dGvXZTtpfW10DCA5jrH1H0Jhs5E0hnZdCR+vb5S8Nn8mQCeS9BdSalYJqMBjAGzq59xAESN7VFVUgV8AZB/dZBR7QTFDCqGquvUBVVoEtgIwpQRzmANSFHgWQKExHdIrPeuMvQNDarXe6nC/AutgV3JW+6bgqQLeV8FekRtgV+ToDKEKnACYKsfZjjkam7a0ZpYTytwmgainpC3HvwBocgKOxqRjehoR9DFKNFYtOwCGYCszobeCbl26N6yyQ6g8X/Wex/rBPsNEV6qAMaJPMynIHQCoSqS9JSMmwef51LflTgCRszU7DvAGiV6mHWfsaVUAAAAASUVORK5CYII=),auto
 !important}
 
-a,button{
+a,button,[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
 cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC) 14 0,pointer
 !important}
 
